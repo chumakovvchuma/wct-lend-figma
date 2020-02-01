@@ -1,0 +1,466 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  background:url(../img/background.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin:0;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1440px) {
+  .bottom-img {
+    bottom: 0;
+    width: 100%;
+    position: absolute;;
+    background: url(../img/bottomimg.png) no-repeat;
+    height: 240px;
+    background-size: cover;
+  }
+  .top-img {
+    top: 0;
+    width: 100%;
+    position: absolute;;
+    background: url(../img/topimg.png) no-repeat;
+    height: 240px;
+    background-size: cover;
+  }
+  
+  
+  .logo-image {
+    position: absolute;
+    width: 651px;
+    height: 283px;
+    left: calc(50% - 651px/2 + 213.5px);
+    top: calc(50% - 283px/2 - 82.5px);
+  }
+  .text-image {
+    position: absolute;
+    width: 288px;
+    height: 219px;
+    left: calc(50% - 288px/2 - 358px);
+    top: calc(50% - 219px/2 - 37.5px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #025B68;
+    
+    text-shadow: 0px 4px 7px #FFFDFD;
+  }
+  .main-text-image {
+    position: absolute;
+  width: 288px;
+  height: 47px;
+  left: calc(50% - 288px/2 - 345px);
+  top: calc(50% - 47px/2 - 170.5px);
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 45px;
+  text-align: center;
+  
+  color: #025B68;
+  
+  text-shadow: 0px 4px 7px #FFFDFD;
+  }
+  
+  
+  .menu1 {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: calc(50% - 122px/2 - 354px);
+    top: calc(50% - 122px/2 + 155px);
+    
+  }
+  .menu2 {
+    position: absolute;
+  width: 122px;
+  height: 122px;
+  left: calc(50% - 122px/2 + 10px);
+  top: calc(50% - 122px/2 + 155px);
+  }
+  .menu3 {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: calc(50% - 122px/2 + 374px);
+    top: calc(50% - 122px/2 + 155px);
+  }
+  
+  
+  
+  .menu-link1 {
+  /* Познайомимось? */
+  
+  
+  position: absolute;
+  width: 266px;
+  height: 40px;
+  left: calc(50% - 266px/2 - 345px);
+  top: calc(50% - 40px/2 + 236px);
+  
+  /* big mains */
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FAFEFF;
+  }
+  .menu-link2 {
+    position: absolute;
+    width: 234px;
+    height: 40px;
+    left: calc(50% - 234px/2 + 5px);
+    top: calc(50% - 40px/2 + 236px);
+    
+    /* big mains */
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+    
+  }
+  .menu-link3 {
+    position: absolute;
+    width: 229px;
+    height: 40px;
+    left: calc(50% - 229px/2 + 384.5px);
+    top: calc(50% - 40px/2 + 237px);
+    
+    /* big mains */
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+  }
+  
+  
+  
+  
+  
+  .menu-text1 {
+    position: absolute;
+    width: 266px;
+    height: 95px;
+    left: calc(50% - 266px/2 - 354px);
+    top: calc(50% - 95px/2 + 302.5px);
+    
+    /* mains */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 70.5%;
+    /* or 15px */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+  }
+  .menu-text2 {
+    position: absolute;
+    width: 266px;
+    height: 95px;
+    left: calc(50% - 266px/2);
+    top: calc(50% - 95px/2 + 302.5px);
+    
+    /* mains */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 70.5%;
+    /* or 15px */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+  }
+  .menu-text3 {
+    position: absolute;
+    width: 308px;
+    height: 95px;
+    left: calc(50% - 308px/2 + 385px);
+    top: calc(50% - 95px/2 + 305.5px);
+    
+    /* mains */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 70.5%;
+    /* or 15px */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+    
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-height : 1024px) {
+  .bottom-img {
+    bottom: 0;
+    width: 100%;
+    position: absolute;;
+    background: url(../img/bottomimg17.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+  }
+  .top-img {
+    top: 0;
+    width: 100%;
+    position: absolute;;
+    background: url(../img/topimg17.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  
+  .logo-image {
+    position: absolute;
+    width: 778px;
+    height: 338px;
+    left: calc(50% - 778px/2 + 243px);
+    top: calc(50% - 338px/2 - 116px);
+    
+  }
+  .text-image {
+    position: absolute;
+    width: 288px;
+    height: 219px;
+    left: calc(50% - 288px/2 - 387px);
+    top: calc(50% - 219px/2 - 100.5px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #025B68;
+    
+    text-shadow: 0px 4px 7px #FFFDFD;
+  }
+  .main-text-image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #025B68;
+    
+    text-shadow: 0px 4px 7px #FFFDFD;
+  }
+  
+  
+  .menu1 {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: calc(50% - 185px/2 - 378.5px);
+    top: calc(50% - 185px/2 + 220.5px);
+    
+  }
+  .menu2 {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: calc(50% - 185px/2 + 40.5px);
+    top: calc(50% - 185px/2 + 220.5px);
+  }
+  .menu3 {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: calc(50% - 185px/2 + 435.5px);
+    top: calc(50% - 185px/2 + 220.5px);
+  }
+  
+  
+  
+  .menu-link1 {
+    position: absolute;
+    width: 266px;
+    height: 40px;
+    left: calc(50% - 266px/2 - 379px);
+    top: calc(50% - 40px/2 + 352px);
+    
+    /* big mains */
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FAFEFF;}
+
+  .menu-link2 {
+    position: absolute;
+width: 234px;
+height: 40px;
+left: calc(50% - 234px/2 + 41px);
+top: calc(50% - 40px/2 + 352px);
+
+/* big mains */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FAFEFF;
+  }
+  .menu-link3 {
+    position: absolute;
+    width: 229px;
+    height: 40px;
+    left: calc(50% - 229px/2 + 433.5px);
+    top: calc(50% - 40px/2 + 352px);
+    
+    /* big mains */
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+  }
+  
+  
+  
+  
+  
+  .menu-text1 {
+    position: absolute;
+    width: 266px;
+    height: 95px;
+    left: calc(50% - 266px/2 - 395px);
+    top: calc(50% - 95px/2 + 437.5px);
+    
+    /* mains */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 70.5%;
+    /* or 15px */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+    
+  }
+  .menu-text2 {
+/* Ми зробили і воно працює Наші перемоги */
+
+
+position: absolute;
+width: 266px;
+height: 95px;
+left: calc(50% - 266px/2 + 41px);
+top: calc(50% - 95px/2 + 437.5px);
+
+/* mains */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 70.5%;
+/* or 15px */
+
+text-align: center;
+
+color: #FAFEFF;
+
+  }
+  .menu-text3 {
+    position: absolute;
+    width: 308px;
+    height: 95px;
+    left: calc(50% - 308px/2 + 429px);
+    top: calc(50% - 95px/2 + 438.5px);
+    
+    /* mains */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 70.5%;
+    /* or 15px */
+    
+    text-align: center;
+    
+    color: #FAFEFF;
+    
+    
+  }
+}
+
+
+
