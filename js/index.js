@@ -16,5 +16,9 @@ $( document ).ready(function(){
         $.scrollify.next();
         $.scrollify.next();
   }})
+  $( ".link-to-two-m" ).on({ 
+    "click": function() { 
+        $.scrollify.next();
+  }})
 })
 
