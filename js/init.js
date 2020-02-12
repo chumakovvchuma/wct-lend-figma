@@ -1,6 +1,9 @@
 (function($){
   $(function(){
-
+    $('.carousel').carousel({
+      numVisible: 9,
+      padding: 240
+    });
     $.scrollify({
       section : ".scrollLink",
       sectionName : "section-name",
@@ -19,5 +22,8 @@
       afterResize:function() {},
       afterRender:function() {}
     });
+    
+      
+    
   }); // end of document ready
 })(jQuery); // end of jQuery name space
