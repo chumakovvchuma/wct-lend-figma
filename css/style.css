@@ -38,31 +38,37 @@ position: absolute;
   background: url("../img/recl.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 .menu-one:hover {
   background: url("../img/reclh.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 .menu-two {
   background: url("../img/recc.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 .menu-two:hover {
   background: url("../img/recch.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 .menu-three {
   background: url("../img/recr.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 .menu-three:hover {
   background: url("../img/recrh.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
 }
 
 .menu-icon-l {
