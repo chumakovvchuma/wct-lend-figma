@@ -22,7 +22,7 @@ body {
 .header-img {
   background: url(../img/header.png) no-repeat;
   width: 100vw;
-  height: 217px;
+  height: 31vh;
   top: 0;
   background-size: 100vw;
   position: absolute;
@@ -30,9 +30,11 @@ body {
 .footer-img {
 background: url(../img/footer.png) no-repeat;
 width: 100vw;
-height: 217px;
+height: 30vh;
 bottom: 0;
+background-size: 100vw;
 position: absolute;
+
 }
 
 .menu-one {
